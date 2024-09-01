@@ -55,11 +55,10 @@
 
 		<div class="flex flex-col absolute {hidden_class}">
 			{#each data.cities as cities, index}
-				<div class="bg-sky-50 {index === focusedIndex ? 'bg-blue-700' : 'bg-red-700'}">
+				<div class="bg-sky-50 {index === focusedIndex ? 'bg-blue-500' : 'bg-red-500'}">
 					{cities.city}{index}
 				</div>
 			{/each}
 		</div>
 	</div>
 </div>
-
